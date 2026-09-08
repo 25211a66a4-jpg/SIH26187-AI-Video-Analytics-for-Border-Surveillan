@@ -50,17 +50,29 @@ The system continuously analyzes CCTV/video feeds to detect suspicious activitie
 ## 📂 Project Structure
 
 ```text
-SIH26187-AI-Video-Analytics-for-Border-Surveillance/
+IBVAP_READY/
 │
-├── IBVAP_READY/
+├── backend/
+│   └── main.py
+│
+├── frontend/
 │   ├── index.html
-│   ├── style.css
-│   ├── script.js
-│   └── ...
+│   ├── login.html
+│   ├── styles.css
+│   └── app.js
 │
-├── README.md
-└── ...
-
+├── demo_videos/
+│   ├── DEMO_01_Normal_Patrol.mp4
+│   ├── DEMO_02_Fence_Intrusion.mp4
+│   ├── DEMO_03_Multiple_Persons.mp4
+│   └── DEMO_04_Loitering_At_Fence.mp4
+│
+├── evidence/
+├── uploads/
+├── ibvap.db
+├── requirements.txt
+├── run.bat
+└── README.md
 
 
 
